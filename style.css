@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Dosis:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Titillium+Web&display=swap");
 
 :root {
   --main-white-color: #f2f2f2;
@@ -28,7 +28,7 @@ a {
 }
 
 body {
-  font: 16px/1.5 "Dosis", sans-serif;
+  font: 16px/1.5 "Titillium+Web", sans-serif;
   /*IE FIX*/
   /*display: flex;
   flex-direction: column;*/
@@ -51,6 +51,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .page-header {
   background: var(--main-white-color);
+  font: 20px/2.0 "Archivo+Black";
 }
 .page-header nav {
   display: flex;
